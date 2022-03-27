@@ -58,11 +58,11 @@ function setImg(iconName) {
          case '01n':    
            return "source/icons/sun-gr.png";
         case '02d':
-            return "source/icons/CS.png";
+            return "source/icons/cs.png";
         case '04d':
         case '03d': 
         case '04n':
-            return "source/icons/Cloud.png";
+            return "source/icons/cloud.png";
         default:
            return `https://openweathermap.org/img/wn/${iconName}@2x.png`;
       }
