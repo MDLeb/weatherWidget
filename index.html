@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="source/icons/sun.ico" type="image/x-icon">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="content">
+        <div class="section_1">
+            <div class="location">
+                <span class="country"></span>
+                <span> - </span>
+                <span class="city"></span>
+            </div>
+            <div class="location-select">
+                <span>Selected city:</span>
+                <select name="city-select" onchange="handleSelecte(event)">
+                    <option selected value="Minsk">Minsk</option>
+                    <option  value="Dubai">Dubai</option>
+                    <option value="Oslo">Oslo</option>
+                    <option value="St.Petersburg">St.Petersburg</option>
+                    <option value="Moscow">Moscow</option>
+                    <option value="London">London</option>
+                    <option value="New York">New York</option>
+                </select>
+            </div>
+        </div>
+        <div class="section_2">
+            <ul class="tabs">
+                <li class="active">Weather</li>
+                <li>News & Events</li>
+                <li>Gallery (25)</li>
+            </ul>
+            <div class="weather-today">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+                <img class="weather-icon" src="source/icons/sun-gr.png" alt="#">
+                <p>
+                    <span class="day"></span><span><sup>th</sup></span>
+                </p>
+                <p>
+                    <span class="wind"></span>
+                    <span>m/s</span>
+                </p>
+                
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+            <div class="weather-week">
+                <span class="day"></span>
+                <img src="source/icons/sun-gr.png" alt="#" class="weather-icon">
+                <p>
+                    <span class="temperature-today"></span><span>&deg;C</span>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
