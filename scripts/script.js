@@ -62,7 +62,7 @@ function setImg(iconName) {
         case '04d':
         case '03d': 
         case '04n':
-            return "source/icons/cloud.png";
+            return "source/icons/Cloud.png";
         default:
            return `https://openweathermap.org/img/wn/${iconName}@2x.png`;
       }
